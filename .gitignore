@@ -1,48 +1,33 @@
-# Files and directories created by pub
-.packages
-.dart_tool/
-.pub/
-.example/flutter.png
-build/
-# Remove the following pattern if you wish to check in your lock file
-**/pubspec.lock
-
-# Directory created by dartdoc
-doc/api/
-.cookies/
-
-dio/.packages
-dio/.dart_tool/
-dio/.pub/
-dio/.idea/
-dio/.exampl
-dio/coverage
-dio/test/_download_test.md
-dio/test/*_pinning.txt
-
-# plugins
-plugins/cookie_manager/.packages
-plugins/cookie_manager/.dart_tool/
-plugins/cookie_manager/.pub/
-plugins/cookie_manager/.idea/
-plugins/cookie_manager/.exampl
-
-plugins/http2_adapter/.packages
-plugins/http2_adapter/.dart_tool/
-plugins/http2_adapter/.pub/
-plugins/http2_adapter/.idea/
-plugins/http2_adapter/.exampl
-plugins/http2_adapter/test/*_pinning.txt
-
-.vscode/
-
-# FVM
-.fvm
-
 # Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
 .DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
 
-# IDEA configurations
-/.idea/*
-!/.idea/dio.iml
-!/.idea/modules.xml
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
